@@ -1,4 +1,4 @@
-node('haimaxy-jnlp') {
+node('master') {
     stage('Clone') {
         echo "1.Clone 代码"
         git url: "https://github.com/yangmv/flask-demo.git"
